@@ -1,0 +1,117 @@
+// ***************************about us********************************
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#81256C, #B32137);
+
+    .container_gall {
+        display: grid;
+        margin-top: 250px;
+
+
+        .t_inter_1 {
+            margin-left: 140px;
+
+            .t_inter_1_t {
+
+                h3 {
+                    font-size: 40px;
+                    color: #B32137;
+
+                    span {
+                        color: white;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                    text-align: left;
+                    color: white;
+                    margin-top: 30px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                button {
+                    width: 197px;
+                    height: 64px;
+                    background: none;
+                    border: 2px solid white;
+                    border-radius: 33px;
+                    color: white;
+                    font-size: 20px;
+                    float: left;
+                    position: relative;
+                    left: 800px;
+                    margin-top: 20px;
+
+                    &:hover {
+                        background: black;
+                        border: none;
+                    }
+                }
+            }
+
+            .ph_inter_1 {
+                width: 816px;
+                height: 408px;
+                margin-top: 150px;
+
+
+                img {
+                    width: 255px;
+                    height: 191px;
+                    padding-left: 20px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+
+        .t_inter_2 {
+            .t_inter_2_t {
+                display: flex;
+                // justify-content: center;
+                text-align: center;
+                align-items: center;
+                flex-direction: column;
+                margin-top: 200px;
+
+                h1 {
+                    font-size: 72px;
+                    color: #B32137;
+
+                    span {
+                        color: white;
+                    }
+                }
+
+                p {
+                    color: white;
+                    font-size: 30px;
+                    margin-top: 50px;
+                    margin-bottom: 200px;
+                    line-height: 40px;
+                }
+            }
+
+            .ph_inter_2 {
+                img {
+                    border-radius: 13px;
+                    padding-left: 10px;
+                }
+            }
+
+            .circle {
+                position: relative;
+                z-index: 1;
+                height: 633px;
+                width: 633px;
+                background: linear-gradient(#B32137, #81256C);
+                border-radius: 50%;
+                top: 30%;
+                left: 93%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
