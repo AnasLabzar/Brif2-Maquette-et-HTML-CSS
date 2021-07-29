@@ -242,14 +242,13 @@
                 .arch{
                     width: 216px !important;
                     height: 122px !important;
-                    bottom: 200px;
+                    top: 5px;
                     // top:1070px;
                 }
                 ._logo{
-                    width: 79px;
-                    height: 22px;
+                    zoom: 70%;
+                    margin-top: 20px;
                     // top: 1580px;
-                    bottom: 190px;
                 }
                 .container{
                     .p_1{
@@ -263,29 +262,33 @@
                     .p_{
                         
                         
-                        font-size: 10px;
+                        font-size: 12px;
                         line-height: 20px;
                         text-align: center;
                         left: 50px;
-                        top: 10px;
+                        font-weight: 700;
+
                     }
                     .p_2{
                         width: 108px;
                         height: 61px;
-                        left: 100px;
-                        top: 1500px;
+                        left: 20px;
                     }
                     .p_3{
                         width: 85,72px;
                         height: 61px;
-                        left: 20px;
-                        top: 1500px;
+                        left: 70px;
                     }
                     .p__p{
                         font-size: 10px;
                         line-height: 20px;
                         text-align: center;
-                        left: 50px;
+                        left: 0px;
+                        padding-right: 0px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        top: -100px;
+                        padding: 20px;
                         // top: 1500px;
                     }
                 }
